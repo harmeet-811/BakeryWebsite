@@ -1,0 +1,161 @@
+.highlights{
+    position: relative;
+    width: 100%;
+    padding:40px 10%;
+    vertical-align: middle;
+}
+
+.highlights-item{
+    display: inline-block;
+    width:20%;
+    padding-top: 20px;
+    text-align: center;
+    background-color:wheat;
+}
+
+.highlights-item:hover{
+    padding: 1.5%;
+
+}
+
+.highlights-item span{
+    font-size: 40px;
+    display: block;
+}
+
+.highlights-item p{
+    font-size: 18px;
+}
+
+.highlights-item p:hover{
+    font-weight: bold;
+}
+
+.highlights-item h3{
+    font-size: 24px;
+}
+
+.highlights-item h3:hover{
+    font-weight: bold;
+}
+
+.our-story{
+    position: relative;
+    width: 100%;
+    padding:40px 10%;
+    align-items:stretch;
+}
+
+.story-images, .story-text{
+    display: inline-block;
+    width: 40%;
+}
+
+.story-images img{
+    float: left;
+    width:90% ;
+    height: auto;
+}
+
+.story-text{
+    vertical-align: top;
+}
+
+.story-text h5 a{
+    background-color: white;
+    font-size: large;
+    color: #ffd21e;
+}
+
+.story-text h5 a:hover{
+    background-color: white;
+    font-size: large;
+    color: black;
+}
+
+.story-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.story-text a{
+    background: #ffd21e;
+    padding: 5px 18px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.story-text a:hover{
+    background-color: black;
+    color: white;
+}
+
+.why{
+    position: relative;
+    width: 100%;
+    padding:40px 10%;
+    align-items:stretch;
+}
+
+.why-text, .why-images{
+    display: inline-block;
+    width: 40%;
+}
+
+.why-text{
+    vertical-align: top;
+}
+
+.why-text h5 a{
+    background-color: white;
+    font-size: large;
+    color: #ffd21e;
+}
+
+.why-text h5 a:hover{
+    background-color: white;
+    font-size: large;
+    color: black;
+}
+
+.why-text p{
+    font-size: 16px;
+}
+
+.why-text ul{
+    margin-bottom: 25px;
+}
+
+.why-text ul li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+.why-text ul li span{
+    font-size: 20px;
+    font-weight: bolder;
+    color:#ffd21e;
+}
+
+.why-text a{
+    background: #ffd21e;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.why-text a:hover{
+    background-color: black;
+    color: white;
+}
+
+.why-images img{
+    float: right;
+    width:90% ;
+    height: auto;
+}

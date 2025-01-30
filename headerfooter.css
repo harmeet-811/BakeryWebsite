@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+    font-family:cursive;
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    background-color:black;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+img{
+    float: left;
+    height: 60px;
+    width: auto;
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    padding: 15px 0;
+    margin-right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: #ffd21e;
+    text-decoration: underline;
+}
+
+nav ul li a:active{
+    color: #ffd21e;
+}
+
+.contact {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    padding: 0 px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact a:hover{
+    color: #ffd21e;
+    font-size: 22px;
+    text-align: center;
+    top: 5px;
+}
+
+span{
+    color: #ffd21e;
+    font-size: 12px;
+}
+
+.hero {
+    background: url('images/ho.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 90vh;
+    text-align:left;
+    color: white;
+    padding-top: 200px;
+}
+
+.hero-text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero h3 {
+    color: #ffd21e;
+    font-size: 18px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffd21e;
+    padding: 12px 24px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+    text-decoration: underline;
+}
+
+section{
+    background-color: white;
+}
+
+footer{
+    background-color:rgb(213, 211, 211);
+    bottom: 0px;
+    margin-left: 0%;
+    width: 100%;
+    display: inline-block;
+    padding-top: 7px;
+
+}
+
+.footerlogo, .footerinfo, .footerlink, .newsletter {
+    display: inline-block;
+    vertical-align: top; 
+    width: 20%;
+    text-align: left;
+    font-size: 12px;
+}
+
+.footerlogo{
+    padding-left: 7%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.footerinfo{
+    padding-left: 2%;
+}
+
+
+.footerlink{
+    padding-left: 5%;
+}
+
+.footerlink ul{
+    list-style-type:disc;
+}
+
+.footerlink ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerlink ul a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.copyright{
+    font-size: 12px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
