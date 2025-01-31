@@ -1,0 +1,53 @@
+/* full Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e5;
+    text-align: center;
+    
+}
+
+/* Header Styling */
+.myhead {
+    background-image: url(images/home.png);
+    background-color: #ffd21e;
+    color: white;
+    padding: 1%;
+    font-size: 22px;
+    
+}
+
+/* Recipe Container */
+.recipe-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+/* Image Styling */
+.recipe-container img {
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+/* List Styling */
+.ol-ul{
+    text-align: left;
+    padding-left: 20px;
+    outline-style: dotted;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    background-color: #bd6f08;
+    color: white;
+    padding: 10px;
+}
